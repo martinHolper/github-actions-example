@@ -1,5 +1,15 @@
 This is setting up a CI/CD Pipline with github actions following: https://youtu.be/NppkHKvnrqc?si=MrX0RFVHB5fvQCe-
 
+================================== OUTPUT
+
+i. workflow build will be deployed to dockerhub under Repository: martinholper/springboot-images-new
+ii. pull docker image with: >docker pull martinholper/springboot-images-new:latest
+iii. open browser url: http://localhost:8080/welcome
+
+
+
+======================================LEARNINGS
+
 all Actions findable under:  https://github.com/actions 
 e.g. checkout
 https://github.com/actions/checkout
@@ -31,4 +41,10 @@ https://github.com/martinHolper/github-actions-example/settings/actions set
 Workflow permissions
 
 Read and write permissions
+
+Set under Setting Secrets: DOCKER_USERNAME, DOCKER_PASSWORD
+
+
+
+
 
