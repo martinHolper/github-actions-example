@@ -15,3 +15,20 @@ We use the following steps currently:
     actions/setup-java@v4
 
 
+Common Errors and Fixes:
+
+Error:
+
+Error: HTTP Status 403 for request POST https://api.github.com/repos/martinHolper/github-actions-example/dependency-graph/snapshots
+Error: Response body:
+{
+  "message": "Resource not accessible by integration",
+
+
+Fix:
+https://github.com/martinHolper/github-actions-example/settings/actions set 
+
+Workflow permissions
+
+Read and write permissions
+
